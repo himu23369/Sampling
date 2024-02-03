@@ -74,7 +74,7 @@ The table below shows the accuracy of each model under different sampling techni
 ### Box plot:
 ![box plot](images/box_plot.png)
 
-# Conclusion
+## Conclusion
 - Random Forest: All sampling techniques except Stratified Sampling have the same accuracy.
 - Logistic Regression: Systematic Sampling gives the highest accuracy.
 - Decision Trees: Both Stratified Sampling and Bootstrap Sampling give the highest accuracy.
