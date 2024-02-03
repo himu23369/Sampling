@@ -54,13 +54,18 @@ A powerful classification algorithm that finds the hyperplane that best separate
 
 The table below shows the accuracy of each model under different sampling techniques:
 
-| Sampling Technique      | Random Forest | Logistic Regression | Decision Trees | Gradient Boosting | Support Vector Machines |
-|-------------------------|---------------|---------------------|----------------|-------------------|-------------------------|
-| Simple Random Sampling  | 0.9870        | 1.000               | 1.000          | 1.000             | 1.000                   |
-| Stratified Sampling     | 0.8701        | 0.9254              | 0.8993         | 0.9250            | 0.9398                  |
-| Systematic Sampling     | 0.9610        | 0.9851              | 1.000          | 0.9625            | 0.9819                  |
-| Bootstrap Sampling      | 0.9870        | 0.9851              | 1.000          | 1.000             | 1.000                   |
-| Cluster Sampling        | 0.8831        | 0.9701              | 0.9530         | 0.9750            | 0.9699                  |
+## Results
+
+The table below shows the accuracy of each model under different sampling techniques:
+
+| Model                   | Simple Random Sampling | Stratified Sampling | Systematic Sampling | Bootstrap Sampling | Cluster Sampling |
+|-------------------------|------------------------|---------------------|----------------------|---------------------|-------------------|
+| Random Forest           | 0.9870                 | 1.0000              | 1.000                | 1.000               | 1.000             |
+| Logistic Regression     | 0.8701                 | 0.9254              | 0.8993               | 0.9250              | 0.9398            |
+| Decision Trees          | 0.9610                 | 0.9851              | 1.000                | 0.9625              | 0.9819            |
+| Gradient Boosting       | 0.9870                 | 0.9851              | 1.000                | 1.000               | 1.000             |
+| Support Vector Machines | 0.8831                 | 0.9701              | 0.9530               | 0.9750              | 0.9699            |
+
 
 
 ### Line plot:
